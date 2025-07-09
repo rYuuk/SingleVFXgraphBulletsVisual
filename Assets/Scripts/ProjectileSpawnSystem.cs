@@ -9,7 +9,7 @@ namespace SingleVFXGraphBulletsVisual
     [BurstCompile]
     public partial struct ProjectileSpawnSystem : ISystem
     {
-        private const float RATE_OF_FIRE = 20f;
+        private const float RATE_OF_FIRE = 50f;
 
         private EntityQuery projectileSpawnerQuery;
 
